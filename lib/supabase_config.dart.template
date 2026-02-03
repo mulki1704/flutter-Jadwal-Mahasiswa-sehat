@@ -1,0 +1,18 @@
+// INSTRUKSI:
+// 1. Buat project Supabase di https://supabase.com
+// 2. Copy Project URL dan anon key dari Settings → API
+// 3. Paste di bawah ini
+// 4. Rename file ini menjadi: supabase_config.dart
+// 5. Import di main.dart: import 'supabase_config.dart';
+
+class SupabaseConfig {
+  // Ganti dengan Project URL Anda dari Supabase Dashboard → Settings → API
+  static const String supabaseUrl = 'YOUR_SUPABASE_URL';
+  
+  // Ganti dengan anon key Anda dari Supabase Dashboard → Settings → API
+  static const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+}
+
+// CONTOH (JANGAN DIGUNAKAN!):
+// static const String supabaseUrl = 'https://abcdefghijk.supabase.co';
+// static const String supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFiY2RlZmdoaWprIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODk...';
